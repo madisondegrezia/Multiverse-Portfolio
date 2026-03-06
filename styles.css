@@ -167,6 +167,27 @@ h3 {
   color: #005fcc;        /* slightly darker on hover */
 }
 
+/* Project image styling */
+.project-image {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center; /* center the image */
+}
+
+.project-image img {
+  max-width: 100%;   /* scale image to card width */
+  height: auto;      /* maintain aspect ratio */
+  border: 1px solid #ddd; /* optional light border */
+  border-radius: 6px;     /* optional rounded corners */
+}
+
+.image-caption {
+  font-size: 0.9rem;
+  color: #555;
+  text-align: center;
+  margin-top: 5px;
+}
+
 .project-links {
   margin-top: 15px;
   display: flex;           /* arrange links side by side */
