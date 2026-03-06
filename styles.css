@@ -84,6 +84,15 @@ h3 {
   font-weight: 600;       /* semi-bold for emphasis */
 }
 
+.subsection-content {
+  margin-left: 20px;      /* indent content */
+  margin-bottom: 15px;    /* spacing below each block */
+}
+
+.subsection-content ul li {
+  margin-bottom: 6px;     /* spacing between list items */
+}
+
 /* Project Tabs */
 .project-tabs {
   display: flex;
