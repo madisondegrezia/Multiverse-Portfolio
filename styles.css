@@ -167,6 +167,24 @@ h3 {
   color: #005fcc;        /* slightly darker on hover */
 }
 
+.project-links {
+  margin-top: 15px;
+  display: flex;           /* arrange links side by side */
+  gap: 15px;               /* spacing between links */
+  flex-wrap: wrap;         /* wrap to next line on small screens */
+}
+
+/* Button link styling */
+.project-links .button-link {
+  display: inline-block;
+  background: #0077ff;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
 /* Footer */
 footer {
   text-align: center;
