@@ -170,7 +170,7 @@ h3 {
 .project-links {
   margin-top: 15px;
   display: flex;           /* arrange links side by side */
-  gap: 15px;               /* spacing between links */
+  gap: 30px;               /* spacing between links */
   flex-wrap: wrap;         /* wrap to next line on small screens */
 }
 
