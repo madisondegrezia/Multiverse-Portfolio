@@ -193,6 +193,7 @@ h3 {
   display: flex;           /* arrange links side by side */
   gap: 30px;               /* spacing between links */
   flex-wrap: wrap;         /* wrap to next line on small screens */
+  align-items: center;
 }
 
 /* Button link styling */
