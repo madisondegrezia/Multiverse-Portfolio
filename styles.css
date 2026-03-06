@@ -1,0 +1,119 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:"Inter",sans-serif;
+background:#f4f6f8;
+color:#333;
+line-height:1.6;
+}
+
+header{
+text-align:center;
+padding:40px 20px;
+background:#111;
+color:white;
+}
+
+header h1{
+font-size:2.5rem;
+}
+
+nav{
+display:flex;
+justify-content:center;
+gap:30px;
+background:white;
+padding:15px;
+border-bottom:1px solid #ddd;
+}
+
+nav a{
+text-decoration:none;
+color:#333;
+font-weight:500;
+}
+
+nav a:hover{
+color:#0077ff;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+padding:40px 20px;
+}
+
+h2{
+margin-bottom:20px;
+border-bottom:2px solid #ddd;
+padding-bottom:8px;
+}
+
+.project-tabs{
+display:flex;
+gap:10px;
+flex-wrap:wrap;
+margin-bottom:20px;
+}
+
+.tab-button{
+border:none;
+background:#e5e7eb;
+padding:8px 14px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.tab-button:hover{
+background:#0077ff;
+color:white;
+}
+
+.tab-button.active{
+background:#0077ff;
+color:white;
+}
+
+.project-card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+.project-content{
+display:none;
+}
+
+.project-content.active{
+display:block;
+}
+
+.project-card ul{
+margin-top:10px;
+margin-left:18px;
+}
+
+.project-card a{
+display:inline-block;
+margin-top:15px;
+background:#0077ff;
+color:white;
+padding:8px 14px;
+border-radius:6px;
+text-decoration:none;
+}
+
+.project-card a:hover{
+background:#005fcc;
+}
+
+footer{
+text-align:center;
+padding:30px;
+color:#777;
+}
