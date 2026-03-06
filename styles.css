@@ -74,6 +74,10 @@ h3 {
   margin: 15px 0 10px 0;
 }
 
+.about-container {
+  margin: 15px;
+}
+
 /* Project Tabs */
 .project-tabs {
   display: flex;
