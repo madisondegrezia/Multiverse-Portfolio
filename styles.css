@@ -74,31 +74,14 @@ h3 {
   margin: 15px 0 10px 0;
 }
 
-/* Style for all sub-sections under About Me */
-.about-subsections {
-  margin-left: 30px;           /* Indent all content */
-  padding-left: 10px;          /* Optional extra padding */
-  border-left: 3px solid #0077ff; /* Left accent line for hierarchy */
-}
-
-/* Subheadings inside wrapper */
-.about-subsections h3 {
-  font-size: 1.2rem;           /* Slightly smaller than h2 */
-  font-weight: 600;
-  margin-top: 20px;
-  margin-bottom: 8px;
-  color: #111827;
-}
-
-/* Paragraphs and lists inside wrapper inherit indentation */
-.about-subsections p,
-.about-subsections ul {
-  margin-top: 8px;
-  margin-bottom: 12px;
-}
-
-.about-subsections ul li {
-  margin-bottom: 6px;
+.about-subheading {
+  margin-top: 25px;       /* space above heading */
+  margin-bottom: 10px;    /* space below heading */
+  font-size: 1.3rem;      /* slightly smaller than main h2 */
+  color: #111827;         /* dark slate text color */
+  border-left: 4px solid #0077ff;  /* optional accent line on left */
+  padding-left: 10px;     /* space between line and text */
+  font-weight: 600;       /* semi-bold for emphasis */
 }
 
 /* Project Tabs */
