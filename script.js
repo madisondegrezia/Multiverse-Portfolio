@@ -1,19 +1,41 @@
-const buttons = document.querySelectorAll(".tab-button");
-const projects = document.querySelectorAll(".project-content");
+// SECTION TOGGLE (About / Projects)
 
-buttons.forEach(button => {
+const navButtons = document.querySelectorAll(".nav-button")
+const sections = document.querySelectorAll(".section")
+
+navButtons.forEach(button => {
 
 button.addEventListener("click", () => {
 
-const projectId = button.dataset.project;
+navButtons.forEach(btn => btn.classList.remove("active"))
+sections.forEach(section => section.classList.remove("active"))
 
-buttons.forEach(btn => btn.classList.remove("active"));
-projects.forEach(project => project.classList.remove("active"));
+button.classList.add("active")
 
-button.classList.add("active");
+const target = button.dataset.section
+document.getElementById(target).classList.add("active")
 
-document.getElementById(projectId).classList.add("active");
+})
 
-});
+})
 
-});
+// PROJECT TAB SWITCHING
+
+const projectButtons = document.querySelectorAll(".tab-button")
+const projectContents = document.querySelectorAll(".project-content")
+
+projectButtons.forEach(button => {
+
+button.addEventListener("click", () => {
+
+projectButtons.forEach(btn => btn.classList.remove("active"))
+projectContents.forEach(content => content.classList.remove("active"))
+
+button.classList.add("active")
+
+const target = button.dataset.project
+document.getElementById(target).classList.add("active")
+
+})
+
+})
